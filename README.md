@@ -111,34 +111,34 @@ In this project, we will following the below steps:
 <img src="Images/pic25.png">
 
 #### Now we create the pipeline for which we prepare the pipeline data by defining the name for the best model and location for our datastore
+#### Now we create the autoML step by calling the autoMLconfig
 
 <img src="Images/pic26.png">
 
-#### Now we create the autoML step by calling the autoMLconfig
+#### Finally we create a pipeline by calling the autoML step
 
 <img src="Images/pic27.png">
 
-#### Finally we create a pipeline by calling the autoML step
+#### Then we submit the pipeline
 
 <img src="Images/pic28.png">
 
-#### Then we submit the pipeline
+#### Below screenshots display that the Run has been completed
 
 <img src="Images/pic29.png">
 
-#### Below screenshots display that the Run has been completed
 
 <img src="Images/pic30.png">
 
 <img src="Images/pic31.png">
 
-<img src="Images/pic32.png">
-
 #### Finally the Pipeline execution summary is being displayed
 
-<img src="Images/pic33.png">
+<img src="Images/pic32.png">
 
 #### We then retrieve the best model along with it steps
+
+<img src="Images/pic33.png">
 
 <img src="Images/pic34.png">
 
@@ -148,11 +148,12 @@ In this project, we will following the below steps:
 
 <img src="Images/pic37.png">
 
+#### Now we test the effectiveness of the deployed model
+
 <img src="Images/pic38.png">
 
 <img src="Images/pic39.png">
 
-#### Now we test the effectiveness of the deployed model
 
 <img src="Images/pic40.png">
 
