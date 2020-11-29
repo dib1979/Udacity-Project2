@@ -152,16 +152,16 @@ In this project, we will following the below steps:
 <img src="Images/pic37.png">
 
 ## We then publish the pipeline and enable authentication locally
-
+## We need the REST url which would be contained in the pipeline_endpoint object
+## HTTP post request is created using the endpoint URL, authentication header and the JSON file
 <img src="Images/pic38.png">
 
 <img src="Images/pic39.png">
 
-## We then publish the pipeline and enable authentication locally
+
 <img src="Images/pic40.png">
 
-## We need the REST url which would be contained in the pipeline_endpoint object
-## HTTP post request is created using the endpoint URL, authentication header and the JSON file
+
 
 <img src="Images/pic41.png">
 
