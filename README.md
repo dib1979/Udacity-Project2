@@ -15,5 +15,8 @@ In this project, we will following the below steps:
 # Create and run Auto ML Experiment
 Dataset has been, created with the name “project2-demo”
 <img src="Images/pic1.png">
-
+<img src="Images/pic2.png">
+<img src="Images/pic3.png">
+<img src="Images/pic4.png">
+<img src="Images/pic5.png">
 
