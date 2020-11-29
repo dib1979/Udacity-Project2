@@ -48,12 +48,18 @@ In this project, we will following the below steps:
 <img src="Images/pic9.png">
 
 # Swagger Documentation
+### Below two screenshots show that "swagger.json" file has been copied in the "swagger" directory
 
 <img src="Images/pic10.png">
 
 <img src="Images/pic11.png">
 
+### Then we ensure that Docker is running and we make changes in the Port# from 80 to 9000 in the "swagger.sh" file
+#### Below screenshot shows that localhost:9000 is accessible post running the "swagger.sh" file
+#### After the Swagger UI container is running, we can access the website on http://localhost:9000.
 <img src="Images/pic12.png">
+
+#### On the top bar, where petsore.swagger.io shows, we change it to http://localhost:8000/swagger.json, then hit the Explore button. It now displays the content of the API for the model
 
 <img src="Images/pic13.png">
 
