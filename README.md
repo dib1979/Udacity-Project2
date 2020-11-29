@@ -148,9 +148,9 @@ In this project, we will following the below steps:
 
 <img src="Images/pic36.png">
 
+#### Now we test the effectiveness of the deployed model
+
 <img src="Images/pic37.png">
-
-
 
 <img src="Images/pic38.png">
 
