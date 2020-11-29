@@ -28,8 +28,86 @@ Dataset has been, created with the name “project2-demo”
 Best model is the one which, is on the top of the list and the algorithm is “Voting Ensemble”
 <img src="Images/pic6.png">
 Best model has been, deployed using “Azure Container Instance (ACI)”
+
 <img src="Images/pic7.png">
 
+# Enable Application Insights
 
+<img src="Images/pic8.png">
 
+<img src="Images/pic9.png">
+
+# Swagger Documentation
+
+<img src="Images/pic10.png">
+
+<img src="Images/pic11.png">
+
+<img src="Images/pic12.png">
+
+<img src="Images/pic13.png">
+
+# Consume Model Endpoints & Benchmarking
+
+<img src="Images/pic14.png">
+
+<img src="Images/pic15.png">
+
+<img src="Images/pic16.png">
+
+<img src="Images/pic17.png">
+
+<img src="Images/pic18.png">
+
+# Create, Publish and Consume a Pipeline
+
+<img src="Images/pic19.png">
+
+<img src="Images/pic20.png">
+
+<img src="Images/pic21.png">
+
+<img src="Images/pic22.png">
+
+<img src="Images/pic23.png">
+
+<img src="Images/pic24.png">
+
+<img src="Images/pic25.png">
+
+<img src="Images/pic26.png">
+
+<img src="Images/pic27.png">
+
+<img src="Images/pic28.png">
+
+<img src="Images/pic29.png">
+
+<img src="Images/pic30.png">
+
+<img src="Images/pic31.png">
+
+<img src="Images/pic32.png">
+
+<img src="Images/pic33.png">
+
+<img src="Images/pic34.png">
+
+<img src="Images/pic35.png">
+
+<img src="Images/pic36.png">
+
+<img src="Images/pic37.png">
+
+<img src="Images/pic38.png">
+
+<img src="Images/pic39.png">
+
+<img src="Images/pic40.png">
+
+<img src="Images/pic41.png">
+
+<img src="Images/pic42.png">
+
+<img src="Images/pic43.png">
 
