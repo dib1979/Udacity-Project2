@@ -87,6 +87,9 @@ In this project, we will following the below steps:
 
 <img src="Images/pic18.png">
 
+## PART 2 - CREATE, PUBLSH & CONSUME A PIPELINE
+<img src="Images/pic45.PNG">
+
 # Create, Publish and Consume a Pipeline
 ## Important libraries are imported and finally displays the SDK version
 
