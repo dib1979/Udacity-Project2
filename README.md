@@ -64,12 +64,20 @@ In this project, we will following the below steps:
 <img src="Images/pic13.png">
 
 # Consume Model Endpoints & Benchmarking
+#### Then we copy the REST endpoint URL and the Primary Key from the deployed Endpoint, Consume tab and make changes in the "endpoint.py" file
 
 <img src="Images/pic14.png">
 
+#### Below screenshot shows the output post executing the "endpoint.py" file
+
+
 <img src="Images/pic15.png">
 
+#### A data.json file will appear after we run endpoint.py
+
 <img src="Images/pic16.png">
+
+#### In the provided started code, there is a benchmark.sh script with a call to ab which when executed display the below results
 
 <img src="Images/pic17.png">
 
