@@ -84,46 +84,46 @@ In this project, we will following the below steps:
 <img src="Images/pic18.png">
 
 # Create, Publish and Consume a Pipeline
-#### Important libraries are imported and finally displays the SDK version
+## Important libraries are imported and finally displays the SDK version
 
 <img src="Images/pic19.png">
 
-#### Using the same configuration file we initialize the workspace
+## Using the same configuration file we initialize the workspace
 
 <img src="Images/pic20.png">
 
-#### Then we create the experiment with the same name which we have created earlier
+## Then we create the experiment with the same name which we have created earlier
 
 <img src="Images/pic21.png">
 
-#### Then we use the existing cluster
+## Then we use the existing cluster
 
 <img src="Images/pic22.png">
 
-#### Then we use the existing data set which we have registered earlier & it displays the Basic Statistical Summary
+## Then we use the existing data set which we have registered earlier & it displays the Basic Statistical Summary
 
 <img src="Images/pic23.png">
 
 <img src="Images/pic24.png">
 
-#### For training purpose we define the AutoML settings and call the AutoMLConfig class
+## For training purpose we define the AutoML settings and call the AutoMLConfig class
 
 <img src="Images/pic25.png">
 
-#### Now we create the pipeline for which we prepare the pipeline data by defining the name for the best model and location for our datastore
-#### Now we create the autoML step by calling the autoMLconfig
+## Now we create the pipeline for which we prepare the pipeline data by defining the name for the best model and location for our datastore
+## Now we create the autoML step by calling the autoMLconfig
 
 <img src="Images/pic26.png">
 
-#### Finally we create a pipeline by calling the autoML step
+## Finally we create a pipeline by calling the autoML step
 
 <img src="Images/pic27.png">
 
-#### Then we submit the pipeline
+## Then we submit the pipeline
 
 <img src="Images/pic28.png">
 
-#### Below screenshots display that the Run has been completed
+## Below screenshots display that the Run has been completed
 
 <img src="Images/pic29.png">
 
@@ -132,23 +132,22 @@ In this project, we will following the below steps:
 
 <img src="Images/pic31.png">
 
-#### Finally the Pipeline execution summary is being displayed
+## Finally the Pipeline execution summary is being displayed
 
 <img src="Images/pic32.png">
 
-#### We then retrieve the best model along with it steps
+## We then retrieve the best model along with it steps
 
 <img src="Images/pic33.png">
 
 <img src="Images/pic34.png">
 
-#### Now we test the effectiveness of the deployed model
 
 <img src="Images/pic35.png">
 
 <img src="Images/pic36.png">
 
-#### Now we test the effectiveness of the deployed model
+## Now we test the effectiveness of the deployed model
 
 <img src="Images/pic37.png">
 
