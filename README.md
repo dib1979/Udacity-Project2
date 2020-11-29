@@ -15,8 +15,21 @@ In this project, we will following the below steps:
 # Create and run Auto ML Experiment
 Dataset has been, created with the name “project2-demo”
 <img src="Images/pic1.png">
+
 <img src="Images/pic2.png">
+
 <img src="Images/pic3.png">
+
 <img src="Images/pic4.png">
+
 <img src="Images/pic5.png">
+
+# Deploy the Best Model
+Best model is the one which, is on the top of the list and the algorithm is “Voting Ensemble”
+<img src="Images/pic6.png">
+Best model has been, deployed using “Azure Container Instance (ACI)”
+<img src="Images/pic7.png">
+
+
+
 
