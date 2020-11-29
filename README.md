@@ -14,7 +14,7 @@ In this project, we will following the below steps:
 
 ## PART 1 - CONFIGURE CLOUD BASED ML MODEL & CONSUME THE MODEL
 
-<img src="Images/pic44.png">
+<img src="Images/pic44.PNG">
 
 # Create and run Auto ML Experiment
 ### Dataset has been, created with the name “project2-demo” using the Bank Marketing dataset
