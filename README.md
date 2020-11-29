@@ -12,6 +12,10 @@ In this project, we will following the below steps:
 7.	Create and publish a pipeline
 8.	Documentation
 
+# PART 1 - CONFIGURE CLOUD BASED ML MODEL & CONSUME THE MODEL
+
+<img src="Images/pic43.png">
+
 # Create and run Auto ML Experiment
 ### Dataset has been, created with the name “project2-demo” using the Bank Marketing dataset
 <img src="Images/pic1.png">
