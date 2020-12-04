@@ -4,6 +4,7 @@ In this project, we will continue to work with the Bank Marketing dataset. We wi
 
 ```diff
 - FEEDBACK 1
+```
 The production model is being deployed to an Endpoint using “Azure Container Instance (ACI)” as the compute type
 ### Future Work
 As part of future work, we can improvise on the below factors:
@@ -12,7 +13,6 @@ As part of future work, we can improvise on the below factors:
 3. In AutoML run We can use the allowed_models or blocked_models parameters to further, modify iterations with the available models to include or exclude
 4. In AutoML while performing Classification task we could try enabling Deep Learning
 5. We could also use single node AKS cluster
-```
 
 ### **Project main steps**
 In this project, we will following the below steps:
