@@ -196,12 +196,17 @@ In this project, we will following the below steps:
 
 ## FEEDBACK - 3  
 
-The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE. It can be found under  
-Endpoints > Pipeline Endpoints
+### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE. It can be found under  
+### Endpoints > Pipeline Endpoints
 
 <img src="Images/New_1.PNG">
 
 <img src="Images/New_2.PNG">
+
+### The Bankmarketing dataset with the AutoML module. It can be found under:
+### Piplelines > Bankmarketing Train
+
+<img src="Images/New_3.PNG">
 
 <img src="Images/pic43.png">
 
