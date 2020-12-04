@@ -2,8 +2,8 @@
 ### **Overview**
 In this project, we will continue to work with the Bank Marketing dataset. We will use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. We will also create, publish, and consume a pipeline. In the end, we will demonstrate all of our work by creating a README file and a screencast video.
 
-<span style="color:blue;">The production model is being deployed to an Endpoint using “Azure Container Instance (ACI)” as the compute type</span>
-@@ The production model is being deployed to an Endpoint using “Azure Container Instance (ACI)” as the compute type.@@
+# FEEDBACK 1
+The production model is being deployed to an Endpoint using “Azure Container Instance (ACI)” as the compute type
 ### Future Work
 As part of future work, we can improvise on the below factors:
 1. We could use GPU's in comparison to CPU's due to their significant speed
