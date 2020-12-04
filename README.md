@@ -23,7 +23,11 @@ In this project, we will following the below steps:
 6.	Consume model endpoints
 7.	Create and publish a pipeline
 8.	Documentation
+
+## FEEDBACK- 2
+
 ## SCREENCAST LINK : https://youtu.be/xVRWRwvEzYY
+
 ## PART 1 - CONFIGURE CLOUD BASED ML MODEL & CONSUME THE MODEL
 
 <img src="Images/pic44.PNG">
