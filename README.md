@@ -193,8 +193,8 @@ In this project, we will following the below steps:
 
 
 <img src="Images/pic42.png">
-## FEEDBACK - 3
-The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE. It can be found under
+## FEEDBACK - 3  
+The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE. It can be found under  
 Endpoints > Pipeline Endpoints
 <img src="Images/New_1.PNG">
 
