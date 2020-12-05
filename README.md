@@ -2,16 +2,26 @@
 ### **Overview**
 In this project, we will continue to work with the Bank Marketing dataset. We will use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. We will also create, publish, and consume a pipeline. In the end, we will demonstrate all of our work by creating a README file and a screencast video.  
 
+The production model is being deployed to an Endpoint using “Azure Container Instance (ACI)” as the compute type
+
 ## FEEDBACK- 1
 
-The production model is being deployed to an Endpoint using “Azure Container Instance (ACI)” as the compute type
 ### Future Work
 As part of future work, we can improvise on the below factors:
-1. We could use GPU's in comparison to CPU's due to their significant speed
-2. We could also use higher end of Memory Optimized CPU CLuster
-3. In AutoML run We can use the allowed_models or blocked_models parameters to further, modify iterations with the available models to include or exclude
-4. In AutoML while performing Classification task we could try enabling Deep Learning
-5. We could also use single node AKS cluster
+1. Usage of Default data splits and cross-validation while performing AutoML through python SDK. In the code snippet, we notice that only the required parameters are defined, that is the parameters for n_cross_validation or validation_ data are not included. If we do not explicitly specify either a validation_data or n_cross_validation parameter, AutoML applies default techniques depending on the number of rows in the single dataset training_data provided.
+a) Provide validation data
+b) Provide validation set size
+c) Set the number of cross-validations
+Cross-validation is not enabled by default; it must be configured in automated ML settings. However, after cross-validation is configured and a validation data set has been provided, the process is automated. The idea is that a model could get "lucky" and have great accuracy with one subset, but by using many subsets the model won't achieve this high accuracy every time. 
+
+2. Removing features can also help with over-fitting by preventing the model from having too many fields to use to memorize specific patterns, thus causing it to be more flexible. It can be difficult to measure quantitatively, but if we can remove features and retain the same accuracy, you have likely made the model more flexible and have reduced the risk of over-fitting. View featurization settings: if we choose to enable Automatic featurization in the Additional configuration settings form, default featurization techniques are applied. In the View featurization settings we can change these defaults and customize accordingly.
+
+3. For classification, you can also enable deep learning. If deep learning is enabled, validation is limited to train_validation split.
+
+4. In AutoML run we can use the allowed_models or blocked_models parameters to further, modify iterations with the available models to include or exclude
+
+5. It is widely accepted that for deep learning training, GPUs should be used due to their significant speed when compared to CPUs. However, due to their higher cost, for tasks like inference which are not as resource heavy as training, it is usually believed that CPUs are sufficient and are more attractive due to their cost savings. However, when inference speed is a bottleneck, using GPUs provide considerable gains both from financial and time perspectives.
+We can also use GPU-based compute to train deep learning models, and switching to lower-cost CPU-only compute to test and register the trained model.
 
 ### **Project main steps**
 In this project, we will following the below steps:
