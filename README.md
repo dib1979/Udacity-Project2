@@ -8,10 +8,10 @@ The production model is being deployed to an Endpoint using “Azure Container I
 
 ### Future Work
 As part of future work, we can improvise on the below factors:
-1. Usage of Default data splits and cross-validation while performing AutoML through python SDK. In the code snippet, we notice that only the required parameters are defined, that is the parameters for n_cross_validation or validation_ data are not included. If we do not explicitly specify either a validation_data or n_cross_validation parameter, AutoML applies default techniques depending on the number of rows in the single dataset training_data provided.
-a) Provide validation data
-b) Provide validation set size
-c) Set the number of cross-validations
+1. Usage of Default data splits and cross-validation while performing AutoML through python SDK. In the code snippet, we notice that only the required parameters are defined, that is the parameters for n_cross_validation or validation_ data are not included. If we do not explicitly specify either a validation_data or n_cross_validation parameter, AutoML applies default techniques depending on the number of rows in the single dataset training_data provided.  
+a) Provide validation data  
+b) Provide validation set size  
+c) Set the number of cross-validations  
 Cross-validation is not enabled by default; it must be configured in automated ML settings. However, after cross-validation is configured and a validation data set has been provided, the process is automated. The idea is that a model could get "lucky" and have great accuracy with one subset, but by using many subsets the model won't achieve this high accuracy every time. 
 
 2. Removing features can also help with over-fitting by preventing the model from having too many fields to use to memorize specific patterns, thus causing it to be more flexible. It can be difficult to measure quantitatively, but if we can remove features and retain the same accuracy, you have likely made the model more flexible and have reduced the risk of over-fitting. View featurization settings: if we choose to enable Automatic featurization in the Additional configuration settings form, default featurization techniques are applied. In the View featurization settings we can change these defaults and customize accordingly.
