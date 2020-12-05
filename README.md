@@ -8,6 +8,7 @@ The production model is being deployed to an Endpoint using “Azure Container I
 
 ### Future Work
 As part of future work, we can improvise on the below factors:
+### MODEL ACCURACY IMPROVEMENT
 1. Usage of Default data splits and cross-validation while performing AutoML through python SDK. In the code snippet, we notice that only the required parameters are defined, that is the parameters for n_cross_validation or validation_ data are not included. If we do not explicitly specify either a validation_data or n_cross_validation parameter, AutoML applies default techniques depending on the number of rows in the single dataset training_data provided.  
 a) Provide validation data  
 b) Provide validation set size  
@@ -19,6 +20,8 @@ Cross-validation is not enabled by default; it must be configured in automated M
 3. For classification, you can also enable deep learning. If deep learning is enabled, validation is limited to train_validation split.
 
 4. In AutoML run we can use the allowed_models or blocked_models parameters to further, modify iterations with the available models to include or exclude
+
+### MODEL INFRASTRUCTURE IMPROVEMENT
 
 5. It is widely accepted that for deep learning training, GPUs should be used due to their significant speed when compared to CPUs. However, due to their higher cost, for tasks like inference which are not as resource heavy as training, it is usually believed that CPUs are sufficient and are more attractive due to their cost savings. However, when inference speed is a bottleneck, using GPUs provide considerable gains both from financial and time perspectives.
 We can also use GPU-based compute to train deep learning models, and switching to lower-cost CPU-only compute to test and register the trained model.
@@ -36,7 +39,11 @@ In this project, we will following the below steps:
 
 ## FEEDBACK- 2
 
-## SCREENCAST LINK : https://youtu.be/xVRWRwvEzYY
+## SCREENCAST LINK : I have recorded 2 videos and provided links for both of them
+https://youtu.be/Bu1K2PEVKNM [Duration- 6:38]  
+https://youtu.be/WW7iZT0J9zE [Duration- 8:16]  
+
+
 
 ## PART 1 - CONFIGURE CLOUD BASED ML MODEL & CONSUME THE MODEL
 
