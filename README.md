@@ -24,16 +24,6 @@ Cross-validation is not enabled by default; it must be configured in automated M
 5. It is widely accepted that for deep learning training, GPUs should be used due to their significant speed when compared to CPUs. However, due to their higher cost, for tasks like inference which are not as resource heavy as training, it is usually believed that CPUs are sufficient and are more attractive due to their cost savings. However, when inference speed is a bottleneck, using GPUs provide considerable gains both from financial and time perspectives.
 We can also use GPU-based compute to train deep learning models, and switching to lower-cost CPU-only compute to test and register the trained model.
 
-### **Project main steps**
-In this project, we will following the below steps:
-1.	Authentication
-2.	Automated ML Experiment
-3.	Deploy the best model
-4.	Enable logging
-5.	Swagger Documentation
-6.	Consume model endpoints
-7.	Create and publish a pipeline
-8.	Documentation
 
 ## SCREENCAST LINK : 
 https://youtu.be/Bu1K2PEVKNM [Duration- 6:38]  
@@ -189,7 +179,6 @@ https://youtu.be/Bu1K2PEVKNM [Duration- 6:38]
 
 <img src="Images/pic42.png">
 
-## FEEDBACK - 3  
 
 ### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE. It can be found under  
 ### Endpoints > Pipeline Endpoints
