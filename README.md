@@ -39,42 +39,8 @@ In this project, we will following the below steps:
 
 ## FEEDBACK- 2
 
-## SCREENCAST LINK : I have recorded 2 videos and provided links for both of them
+## SCREENCAST LINK : 
 https://youtu.be/Bu1K2PEVKNM [Duration- 6:38]  
-https://youtu.be/WW7iZT0J9zE [Duration- 8:16]  
-
-## BOTH VIDEOS CONTAINS BELOW POINTS & ALL OF THEM ARE AS PER THE PROJECT REQUIREMENT  
-Operationalizing ML Model : We will use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. We will also create, publish, and consume a pipeline  
-
-1.We start our project by getting bank marketing dataset registerd   
-2.We start the AutoML experiment - Classification task  
-3.Once Run is completed we choose the Best Model  
-4.Deploy the Best Model using ACI & Enabling Authntication   
-5.Copy the config.json file and make changes in the logs.py file.  
-6.Finally execute the logs.py file   
-7.Application insight is enabled  
-8.Copy swagger.json file to swagger folder and make changes to the swagger .sh [port changed from default #80 to 9000] file.  
-9.Execute the swagger.sh file & login to http://localhost:9000   
-10.Execute the serve.py file & in search bar http://localhost:8000/swagger.json   
-11.Display the JSON payload  
-12.Go to endpoint.py file and make changes to Rest url and primary key  
-13.Execute the endpoint.py file to show the Output  
-14.data.json file gets created  
-15.Make changes to benchmark.sh file & execute the file which calls ab    
-
-## Load the Notebook
-1.Import necessary libraries, Workspace, Experiment , Compute cluster & dataset is loaded as pandas data frames  
-2.Initialize the AutoML settings  
-3.Now we create the pipeline for which we prepare the pipeline data by defining the name for the best model and location for our datastore  
-4.Now we create the autoML step by calling the autoMLconfig  
-5.Finally we create a pipeline by calling the autoML step & Then we submit the pipeline  
-6.We then publish the pipeline and enable authentication locally, We need the REST url which would be contained in the pipeline_endpoint object.  
-7.HTTP post request is created using the endpoint URL, authentication header and the JSON file  
-8.The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE. It can be found under  
-Endpoints > Pipeline Endpoints  
-9.The Bankmarketing dataset with the AutoML module. It can be found under:  
-Piplelines > Bankmarketing Train  
-
 
 
 ## PART 1 - CONFIGURE CLOUD BASED ML MODEL & CONSUME THE MODEL
