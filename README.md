@@ -47,9 +47,8 @@ https://youtu.be/Bu1K2PEVKNM [Duration- 6:38]
 ### Dataset has been, created with the name “project2-demo” using the Bank Marketing dataset
 <img src="Images/pic1.png">
 
-<img src="Images/pic2.png">
 
-### The Bank Marketing dataset is being reflecting under the Registered datasets tab
+### The Bank Marketing dataset is being reflecting under the Registered datasets tab & it has been registered as project2-demo
 
 <img src="Images/pic3.png">
 
