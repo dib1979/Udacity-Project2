@@ -4,8 +4,6 @@ In this project, we will continue to work with the Bank Marketing dataset. We wi
 
 The production model is being deployed to an Endpoint using “Azure Container Instance (ACI)” as the compute type
 
-## FEEDBACK- 1
-
 ### Future Work
 As part of future work, we can improvise on the below factors:
 ### MODEL ACCURACY IMPROVEMENT
@@ -36,8 +34,6 @@ In this project, we will following the below steps:
 6.	Consume model endpoints
 7.	Create and publish a pipeline
 8.	Documentation
-
-## FEEDBACK- 2
 
 ## SCREENCAST LINK : 
 https://youtu.be/Bu1K2PEVKNM [Duration- 6:38]  
