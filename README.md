@@ -62,7 +62,6 @@ https://youtu.be/Bu1K2PEVKNM [Duration- 6:38]
 
 # Deploy the Best Model
 ### Best model is the one which, is on the top of the list and the algorithm is “Voting Ensemble”
-<img src="Images/pic6.png">
 
 ### Best model has been, deployed using “Azure Container Instance (ACI)” & Authentication has also been enabled
 
