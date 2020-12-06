@@ -168,20 +168,6 @@ https://youtu.be/Bu1K2PEVKNM [Duration- 6:38]
 
 <img src="Images/pic32.png">
 
-## We then retrieve the best model along with it steps
-
-<img src="Images/pic33.png">
-
-<img src="Images/pic34.png">
-
-
-<img src="Images/pic35.png">
-
-<img src="Images/pic36.png">
-
-## Now we test the effectiveness of the deployed model
-
-<img src="Images/pic37.png">
 
 ## We then publish the pipeline and enable authentication locally
 ### We need the REST url which would be contained in the pipeline_endpoint object
